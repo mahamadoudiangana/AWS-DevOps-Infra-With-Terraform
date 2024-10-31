@@ -48,7 +48,7 @@ _`The project provisions AWS resources using Terraform with user_data scripts fo
 
 <ul>
   <li>EC2 Instances:
-  <ul><
+  <ul>
         <li>Web Servers (3 instances): Deployed in the public subnet to handle web traffic. Each server has Docker and Apache 2 installed through Terraform’s user_data functionality.</li>
         <li>Private Instances (3 instances): Launched in the private subnet for backend services or databases with access restricted to the VPC.</li>
         <li>Bastion Host: Configured as a secure jump box in the public subnet to manage instances within the private subnet.</li>
